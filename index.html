@@ -5,119 +5,141 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <nav>
         <ul>
-            <li>ProGrad 001</li>
+            <li class="logo-text">ProGrad 001</li>
             <li>
                 <ul>
-                    <li><a href="HOME">HOME</a></li>
-                    <li><a href="BIO">BIO</a></li>
-                    <li><a href="PORTFOLIO">PORTFOLIO</a></li>
-                    <li><a href="SKILLS">SKILLS</a></li>
-                    <li><a href="CONTACT">CONTACT</a></li>
+                    <li><a href="#HOME" class="nav-link">HOME</a></li>
+                    <li><a href="#BIO" class="nav-link">BIO</a></li>
+                    <li><a href="#PORTFOLIO" class="nav-link">PORTFOLIO</a></li>
+                    <li><a href="#SKILLS" class="nav-link">SKILLS</a></li>
+                    <li><a href="#CONTACT" class="nav-link link-button">CONTACT</a></li>
                 </ul>
             </li>
         </ul>
     </nav>
-    <header>
-        <h2>
-            <bold>I BELIEVE IN</bold>
-        </h2>
+    <header id="HOME">
+        <div>
+            <p>I BELIEVE IN</p>
 
-        <h1><strong>EAT();SLEEP();CODE();REPEAT()</strong></h1>
+
+            <h1><strong>EAT();SLEEP();CODE();REPEAT()</strong></h1>
+        </div>
     </header>
-    <section>
-        <img src="./assets/my photo.jpg" alt="PROFILE PHOTO" width="20%" height="30%">
-        <h3>Kovarthan S</h3>
-        <p>I am a passionate Engineer with a degree in Electronics & Communication Enginnering.My very first experience
-            with code was at the time when I started my own blog.My struggle to customize the blog pages introduced me
-            to HTML & CSS.Sooner, the excitement of having the power to structure pages on my own sounded amazing and
-            that's when I decided to pursue Web Development.<br><br>Recently ,I have taken up a Front End Development
-            Bootcamp program with FACE.I have knowledge of HTML,CSS and Javascript,java,C and Data Structures.Rational
-            thought process and goal oriented planning are my strengths.<br><br> I am currently on the look out for a
-            challenging role to build products that make a difference.</p>
+    <section id="BIO">
 
-        <a href="Download my Resume">Download my Resume</a>
+        <img src="./assets/my photo.jpg" alt="PROFILE PHOTO" width="20%" height="30%">
+        <article>
+
+            <h3>Kovarthan S</h3>
+
+
+            <p>I am a passionate Engineer with a degree in Electronics & Communication Enginnering.My very first
+                experience
+                with code was at the time when I started my own blog.My struggle to customize the blog pages introduced
+                me
+                to HTML & CSS.Sooner, the excitement of having the power to structure pages on my own sounded amazing
+                and
+                that's when I decided to pursue Web Development.<br><br>Recently ,I have taken up a Front End
+                Development
+                Bootcamp program with FACE.I have knowledge of HTML,CSS and Javascript,java,C and Data
+                Structures.Rational
+                thought process and goal oriented planning are my strengths.<br><br> I am currently on the look out for
+                a
+                challenging role to build products that make a difference.</p>
+
+
+            <a href="Download my Resume" class="link-button">Download my Resume</a>
+        </article>
     </section>
-    <section>
+    <section id="PORTFOLIO">
         <p>
             <h2>PORTFOLIO</h2>
         </p>
         <p>Some of my Projects are</p>
-        <hr>
+        <hr><br>
 
         <div>
-            <img src="" alt="img">
-            <h4>Line Follower</h4>
-            <p>A robot that uses IR sensors to follow a black line.</p>
-        </div>
-        <div>
-            <img src="" alt="img">
-            <h4>Quadrupped Robot</h4>
-            <p>A four legged robot to do lifting,moving,etc..</p>
-        </div>
-        <div>
-            <img src="" alt="img">
-            <h4>Traffic Light Controller</h4>
-            <p>Arduino Programming based traffic signal controller.</p>
+            <article>
+                <img src="" alt="img">
+                <h4>Line Follower</h4>
+                <p>A robot that uses IR sensors to follow a black line.</p>
+            </article>
+            <article>
+                <img src="" alt="img">
+                <h4>Quadrupped Robot</h4>
+                <p>A four legged robot to do lifting,moving,etc..</p>
+            </article>
+            <article>
+                <img src="" alt="img">
+                <h4>Traffic Light Controller</h4>
+                <p>Arduino Programming based traffic signal controller.</p>
+
+            </article>
+
         </div>
     </section>
-    <section>
-        <p>
-            <h2>
-                SKILLS
+    <section id="SKILLS">
 
-            </h2>
-        </p>
-        <div>
-            <p>
+        <h2>
+            SKILLS
+
+        </h2>
+
+        <div id="skills-container">
+            <div>
+
                 <h4>
                     TECHNICAL SKILLS
                 </h4>
-            </p>
-            <ul>
-                <li>HTML</li>
-                <li><progress value="10" max="100%">10%</progress>
-                </li>
-                <li>CSS</li>
-                <li><progress value="10" max="100%">10%</progress>
-                </li>
-                <li>JAVA SCRIPT</li>
-                <li><progress value="10" max="100%">10%</progress>
-                </li>
-                <li>JAVA</li>
-                <li><progress value="10" max="10%">10%</progress>
-                </li>
+                <div>
+                    <ul>
+                        <li>HTML</li>
+                        <li><progress value=60 max=100></progress>
+                        </li>
+                        <li>CSS</li>
+                        <li><progress value=60 max=100>10%</progress>
+                        </li>
+                        <li>JAVA SCRIPT</li>
+                        <li><progress value=60 max=100>10%</progress>
+                        </li>
+                        <li>JAVA</li>
+                        <li><progress value=60 max=100>10%</progress>
+                        </li>
 
-            </ul>
-        </div>
-        <div>
-            <p>
+                    </ul>
+                </div>
+            </div>
+            <div>
+
                 <h4>
                     LANGUAGES
                 </h4>
-            </p>
-            <ul>
-                <li>English</li>
-                <li><progress value="10" max="100%">10%</progress>
-                </li>
-                <li>Tamil</li>
-                <li><progress value="50" max=100%>50%</progress>
-                </li>
-            </ul>
-
+                <div>
+                    <ul>
+                        <li>English</li>
+                        <li><progress value=60 max=100>10%</progress>
+                        </li>
+                        <li>Tamil</li>
+                        <li><progress value=80 max=100>50%</progress>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
-    <footer>
+    <footer id="CONTACT">
         <h2>CONTACT</h2>
         <form action="">
-            <input type="text" placeholder="Enter your name">
-            <input type="text" placeholder="Enter your mailId">
-            <input type="text" placeholder="Enter your message">
-            <input type="button" value="Send Message">
+            <input class="input" type="text" placeholder="Enter your name">
+            <input class="input" type="text" placeholder="Enter your mailId">
+            <input class="input" type="text" placeholder="Enter your message">
+            <input type="button" class="link-button" value="Send Message">
         </form>
     </footer>
 </body>
